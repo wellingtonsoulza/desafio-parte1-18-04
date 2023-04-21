@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto +Condensed:wght@300 & display=swap');
+font-family: 'Roboto Condensed', sem serifa;
+
+.desafio1 {
+    color: aqua;
+
+}
+
+#lista1 {
+    color: red;
+    background-color: rgb(179, 179, 48);
+}
+
+#lista2 {
+    color: rgb(55, 55, 155);
+    background-color: rgb(212, 219, 219);
+}
+
+p: :focus{
+    color: rgb(177, 130, 43);
+}
+
+div: :hover {
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    width: 101px;
+    height: 120px;
+    overflow:auto;
+    margin: 5px;
+    padding: 2px;
+}
+
+.borda-Pontilhada {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding-right: 9px;
+    padding-left: 9px;
+    overflow: auto;
+    background-image: radial-gradient(red, yellow);
+}
+
+.novo {
+    display: inline;
+    background-color: grey;
+    background-image: linear-gradient(to bottom,red,yellow);
+}
+
+span: :active {
+    display: block;
+    background-color: grey;
+}
